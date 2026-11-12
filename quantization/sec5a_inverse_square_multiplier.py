@@ -1,7 +1,7 @@
 """Section V A: fuzzy sphere with the non-polynomial Poisson multiplier lambda(z) = lambda_0 + lambda_{-2} z^{-2} (Eq. 45),
 N = 2 .. 20, eta = lambda_{-2}/lambda_0 in {1, 1e-1, 1e-2, 1e-3, 1e-4}, R = lambda_0 = 1 (Fig. 4a1).
 
-    python paper_code/sec5a_inverse_square_multiplier.py [--workers 8]     # -> results/sec5a.json
+    python quantization/sec5a_inverse_square_multiplier.py [--workers 8]     # -> quantization/results/sec5a.json
 
 Loss (Eq. 17):  L_tot = c_ac L_ac + c_irr L_irr,  c_ac = 1, c_irr = 1e-18, residuals of Eq. (23) with
 lambda(Z) Z = Z + eta Z^{-1}  and  S_lambda[A] = A + eta Z^{-1} A Z^{-1}  (Eq. 46).

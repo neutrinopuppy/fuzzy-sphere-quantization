@@ -1,6 +1,6 @@
 """Section III A: fuzzy sphere with the constant Poisson multiplier lambda(z) = 1, R = 1, N = 2 .. 40.
 
-    python paper_code/sec3a_constant_multiplier.py            # -> results/sec3a.json
+    python quantization/sec3a_constant_multiplier.py            # -> quantization/results/sec3a.json
 
 Loss (Eq. 17):  L_tot = c_ac L_ac + c_irr L_irr,  c_ac = 1, c_irr = 1e-18, residuals of Eq. (19).
 Expected answer (Eq. 16):  hbar_N = R / (lambda_0 sqrt(N^2 - 1)).

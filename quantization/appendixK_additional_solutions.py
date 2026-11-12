@@ -1,7 +1,7 @@
 """Appendix K: every solution of the fuzzy sphere with lambda(z) = 1 + eta z^{-2} at even N = 2 .. 24, eta = 1e-2 and 1e-4,
 listed exactly from the chain equations and then used as the initialization of the training (Fig. 4a2, b).
 
-    python paper_code/appendixK_additional_solutions.py [--workers 8]     # -> results/appendixK.json
+    python quantization/appendixK_additional_solutions.py [--workers 8]     # -> quantization/results/appendixK.json
 
 Theta_N(z) = R^2 - z^2 + 2 hbar_N (lambda_0 z + lambda_{-2}/z)   (Eq. J3);  W W^dag = Theta_N(Z), W^dag W = Theta_N(-Z)  (Eq. J4).
 The non-zero elements of W = X + iY visit the spectrum of Z in one connected sequence p_0 -> p_1 -> ... -> p_{N-1} (Eq. K3), with

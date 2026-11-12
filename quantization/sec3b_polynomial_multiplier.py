@@ -1,6 +1,6 @@
 """Section III B: fuzzy sphere with a trainable polynomial Poisson multiplier, N = 2 .. 20, d_lambda = 1 .. 10 (Fig. 2b, c).
 
-    python paper_code/sec3b_polynomial_multiplier.py [--workers 8]     # -> results/sec3b.json
+    python quantization/sec3b_polynomial_multiplier.py [--workers 8]     # -> quantization/results/sec3b.json
 
 lambda(z) = sum_{alpha=0}^{d} lambda_alpha z^alpha,  lambda_0 = lambda_d = 1 fixed, lambda_1 .. lambda_{d-1} trainable,
 lambda^(ini)(z) = 1 + z^d.   Loss (Eq. 22):  L_tot = c_ac L_ac + c_irr L_irr + c_pos L_pos,  c_ac = 1, c_irr = 1e-18,
